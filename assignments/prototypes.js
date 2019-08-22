@@ -166,7 +166,7 @@ class Villain extends Humanoid {
   }
 }
 
-class Hero extends Humanoid {
+class Hero1 extends Humanoid {
   constructor(arg) {
     super(arg);
   }
@@ -185,7 +185,7 @@ class Hero extends Humanoid {
   }
 }
 
-const hero = new Hero({
+const hero = new Hero1({
   createdAt: new Date(),
   dimensions: {
     length: 1,
